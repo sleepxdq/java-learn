@@ -1,7 +1,6 @@
 package com.xdq.learn.beans;
 
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * Created by xu_do on 2017/8/15.

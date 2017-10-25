@@ -1,6 +1,5 @@
 package com.xdq.test_base;
 
-import com.xdq.learn_enum.Size;
 import org.junit.Test;
 
 import java.util.Date;
@@ -12,21 +11,6 @@ public class Switch_Enum_Tests {
 
     @Test
     public void test() {
-        Size sz = Size.EXTRA_LARGE;
-        //枚举
-        switch (sz)
-        {
-            case LARGE:
-                break;
-            case SMALL: break;
-            case MEDIUM: break;
-            case EXTRA_LARGE://no need to use Size.EXTRA_LARGE
-                Date date = new Date();
-                System.out.println(date);
-                System.out.println(sz);
-                break;
-            default: break;
-        }
 
     }
 
